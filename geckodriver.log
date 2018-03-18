@@ -1,0 +1,86 @@
+1521384329875	geckodriver	INFO	geckodriver 0.19.1
+1521384329881	geckodriver	INFO	Listening on 127.0.0.1:55836
+1521384330988	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/ph/43ql_ys907s49szsz5rm062r0000gn/T/rust_mozprofile.xPFvADdhhFxo"
+1521384331736	Marionette	INFO	Enabled via --marionette
+2018-03-18 22:45:32.839 plugin-container[6392:2152711] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x813f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1521384333408	Marionette	INFO	Listening on port 55842
+1521384333520	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-03-18 22:45:34.296 plugin-container[6393:2152784] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8147, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://g.alicdn.com/kissy/k/1.4.2/seed-min.js, line 51: TypeError: i is null
+JavaScript error: https://g.alicdn.com/tb/login/0.4.7/weibo/login/login.js, line 1: TypeError: KISSY.add is not a function
+JavaScript error: https://login.taobao.com/member/login.jhtml?from=wbfast&style=wbfast&goto=http%3A%2F%2Fweibo.com%2Fa%2Fbind%2Flogin%3Fentry%3Dtaobao%26sid%3D39ff5ddc2e19a3e91ff3c69ac7fd48fc, line 153: TypeError: S.getScript is not a function
+JavaScript error: https://login.taobao.com/member/login.jhtml?from=wbfast&style=wbfast&goto=http%3A%2F%2Fweibo.com%2Fa%2Fbind%2Flogin%3Fentry%3Dtaobao%26sid%3D39ff5ddc2e19a3e91ff3c69ac7fd48fc, line 9: TypeError: r.ready is not a function
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/unLogin.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/loginBox.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directright.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/bottomInput.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/base.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/dialog/forward.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/bubble/moodFeedPublish.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/dialog/moodSmallPublish.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/unLogin.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directright.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/loginBox.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/bottomInput.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/base.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/dialog/forward.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/bubble/moodFeedPublish.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/dialog/moodSmallPublish.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/unLogin.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/loginBox.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directright.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/bottomInput.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/base.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/dialog/forward.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/bubble/moodFeedPublish.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/dialog/moodSmallPublish.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/unLogin.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directright.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/bottomInput.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/loginBox.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/base.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/dialog/forward.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/bubble/moodFeedPublish.js?version=20180316161000, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/dialog/moodSmallPublish.js?version=20180316161000, line 1: unreachable code after return statement
