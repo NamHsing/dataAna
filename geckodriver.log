@@ -254,3 +254,128 @@ See /usr/include/servers/bootstrap_defs.h for the error codes.
 2018-03-25 17:02:23.150 plugin-container[9158:3321546] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7d47, name = 'com.apple.tsm.portname'
 See /usr/include/servers/bootstrap_defs.h for the error codes.
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1522337616405	geckodriver	INFO	geckodriver 0.19.1
+1522337616422	geckodriver	INFO	Listening on 127.0.0.1:56300
+1522337617544	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/ph/43ql_ys907s49szsz5rm062r0000gn/T/rust_mozprofile.o2N04uBOVdY1"
+1522337622370	Marionette	INFO	Enabled via --marionette
+2018-03-29 23:33:43.422 plugin-container[3082:755368] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7f43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522337623850	Marionette	INFO	Listening on port 56309
+2018-03-29 23:33:44.378 plugin-container[3083:755458] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x763f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522337632662	geckodriver	INFO	geckodriver 0.19.1
+1522337632685	geckodriver	INFO	Listening on 127.0.0.1:56341
+1522337633779	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/ph/43ql_ys907s49szsz5rm062r0000gn/T/rust_mozprofile.SKnHRhf5aXfM"
+1522337634380	Marionette	INFO	Enabled via --marionette
+2018-03-29 23:33:55.367 plugin-container[3089:756282] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x803f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522337635828	Marionette	INFO	Listening on port 56350
+1522337635880	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-03-29 23:33:56.562 plugin-container[3090:756445] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7443, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://login.taobao.com/member/login.jhtml?from=wbfast&style=wbfast&goto=http%3A%2F%2Fweibo.com%2Fa%2Fbind%2Flogin%3Fentry%3Dtaobao%26sid%3D9a98380eb77d14df871b3c86337e02e6, line 5: NS_ERROR_NOT_INITIALIZED: 
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/unLogin.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directright.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/bottomInput.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/loginBox.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/base.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/dialog/forward.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/bubble/moodFeedPublish.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/dialog/moodSmallPublish.js?version=20180327171500, line 1: unreachable code after return statement
+1522337929055	geckodriver	INFO	geckodriver 0.19.1
+1522337929068	geckodriver	INFO	Listening on 127.0.0.1:56698
+1522337930228	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/ph/43ql_ys907s49szsz5rm062r0000gn/T/rust_mozprofile.xHTYLmWe0iR6"
+1522337930812	Marionette	INFO	Enabled via --marionette
+2018-03-29 23:38:52.018 plugin-container[3120:771456] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7b47, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522337932732	Marionette	INFO	Listening on port 56707
+2018-03-29 23:38:52.768 plugin-container[3121:771526] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x873f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522337932786	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/unLogin.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directright.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/bottomInput.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/loginBox.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/base.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/dialog/forward.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/bubble/moodFeedPublish.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/dialog/moodSmallPublish.js?version=20180327171500, line 1: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1522338322316	geckodriver	INFO	geckodriver 0.19.1
+1522338322321	geckodriver	INFO	Listening on 127.0.0.1:57164
+1522338323455	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/ph/43ql_ys907s49szsz5rm062r0000gn/T/rust_mozprofile.VbHzHlabxzz2"
+1522338324046	Marionette	INFO	Enabled via --marionette
+2018-03-29 23:45:25.058 plugin-container[3145:789371] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x863f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522338325538	Marionette	INFO	Listening on port 57173
+1522338325598	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-03-29 23:45:26.306 plugin-container[3146:789441] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7803, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/unLogin.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directright.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/loginBox.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/bottomInput.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/base.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/dialog/forward.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/bubble/moodFeedPublish.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/dialog/moodSmallPublish.js?version=20180327171500, line 1: unreachable code after return statement
+1522338445838	geckodriver	INFO	geckodriver 0.19.1
+1522338445844	geckodriver	INFO	Listening on 127.0.0.1:57429
+1522338446986	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/ph/43ql_ys907s49szsz5rm062r0000gn/T/rust_mozprofile.iVs1YWlgiIsM"
+1522338447668	Marionette	INFO	Enabled via --marionette
+2018-03-29 23:47:28.833 plugin-container[3159:795902] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7c3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1522338449306	Marionette	INFO	Listening on port 57438
+1522338449386	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-03-29 23:47:30.066 plugin-container[3160:796094] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x742b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://login.taobao.com/member/login.jhtml?from=wbfast&style=wbfast&goto=http%3A%2F%2Fweibo.com%2Fa%2Fbind%2Flogin%3Fentry%3Dtaobao%26sid%3D0ed1586a23b911ed82a66b67b841a31a, line 5: NS_ERROR_NOT_INITIALIZED: 
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/unLogin.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directright.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/loginBox.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/bottomInput.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/direct.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/base.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/weibo/directtop.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/dialog/forward.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/bubble/moodFeedPublish.js?version=20180327171500, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search/js/common/dialog/moodSmallPublish.js?version=20180327171500, line 1: unreachable code after return statement

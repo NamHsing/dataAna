@@ -1,6 +1,7 @@
 from selenium import webdriver
 import time
 import pymysql
+from snownlp import SnowNLP
 
 class WeiboDataGet():
 
@@ -9,6 +10,7 @@ class WeiboDataGet():
 
     def Connect(self,address):
         self.driver.get('http://weibo.com')
+        self.driver.implicitly_wait(10)
 
     def Close(self):
         print 'Browser will close'
@@ -80,7 +82,8 @@ class WeiboDataGet():
         con=pymysql.connect(host='123.206.45.78', port=3306, user='sa', passwd='sail1989', db='test', charset='utf8')
         cursor=con.cursor()
         for text in self.textData:
-            sqlsen="INSERT INTO `wbc`(`content`, `var`) VALUES ('"+text+"',0)"
+            senValue=SnowNLP(text).sentiments
+            sqlsen="INSERT INTO `wbc`(`content`, `sens`) VALUES ('"+text+"',"+str(senValue)+")"
             cursor.execute(sqlsen)
         con.commit()
         cursor.close()
@@ -89,6 +92,9 @@ class WeiboDataGet():
 if __name__=="__main__":
     x=WeiboDataGet()
     x.Connect('http://weibo.com')
+    x.Login()
+    time.sleep(20)
     x.GetData(2)
     x.WriteFile('out.txt')
+    x.DataBaseOut()
     x.Close()
