@@ -87,12 +87,61 @@ class WeiboDataGet():
                 else:
                     WBNR = data.find_element_by_xpath(
                         ".//div[@class='feed_content wbcon']/p[@class='comment_txt']").text.encode('utf-8')
-
+                timestamp=data.find_element_by_xpath(
+                    './/a[@node-type="feed_list_item_date"]').get_attribute('date').encode('utf-8')
+                zf=data.find_element_by_xpath(
+                    './/div[@class="feed_action clearfix"]/ul/li[2]/a/span/em').text.encode('utf-8')
+                pl=data.find_element_by_xpath(
+                    './/div[@class="feed_action clearfix"]/ul/li[3]/a/span/em').text.encode('utf-8')
+                dz=data.find_element_by_xpath(
+                    './/div[@class="feed_action clearfix"]/ul/li[4]/a/span/em').text.encode('utf-8')
                 #WBNR = WBNR.translate(non_bmp_map)
+                print(timestamp)
                 print(WBNR)
                 seniV=SnowNLP(WBNR).sentiments
                 print(seniV)
                 self.textData.append([WBNR,seniV])
+
+    def GetWeiboData(self,address):
+        self.textWeiboData=[]
+        self.driver.get(address)
+        self.driver.implicitly_wait(10)
+        time.sleep(5)
+
+        try:
+            datas = self.driver.find_elements_by_xpath('//div[@node-type="feed_list"]/div')
+        except:
+            return
+
+        for data in datas:
+            try:
+                data.find_element_by_xpath(
+                    ".//div[@class='feed_content wbcon']/p[@class='comment_txt']/a[@class='WB_text_opt']").is_displayed()
+                flag = True
+            except:
+                flag = False
+                # 如果需要展开全文，点击后提取文本
+            self.driver.implicitly_wait(10)
+            if (flag and data.find_element_by_xpath(
+                ".//div[@class='feed_content wbcon']/p[@class='comment_txt']/a[@class='WB_text_opt']").text.encode(
+                'utf-8').startswith(
+                '展开全文c')):
+                self.driver.implicitly_wait(10)
+                data.find_element_by_xpath(
+                    ".//div[@class='feed_content wbcon']/p[@class='comment_txt']/a[@class='WB_text_opt']").click()
+                time.sleep(1)
+                WBNR = data.find_element_by_xpath(
+                    ".//div[@class='feed_content wbcon']/p[@node-type='feed_list_content_full']").text.encode(
+                    'utf-8')
+                WBNR = WBNR[:WBNR.__len__() - 13]
+                # 没有展开全文，直接提取微博内容
+            else:
+                WBNR = data.find_element_by_xpath(
+                    ".//div[@class='feed_content wbcon']/p[@class='comment_txt']").text.encode('utf-8')
+
+            print(WBNR)
+
+            self.textWeiData.append([WBNR])
 
     def WriteFile(self,filePath):
         f = open(filePath, 'w')
@@ -113,9 +162,9 @@ class WeiboDataGet():
 
 if __name__=="__main__":
     x=WeiboDataGet()
-    x.Connect('http://weibo.com')
+    #x.Connect('http://weibo.com')
     #x.Login()
-    time.sleep(20)
+    #time.sleep(20)
     x.GetData(2)
     x.WriteFile('out.txt')
     x.DataBaseOut()

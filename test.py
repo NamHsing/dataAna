@@ -24,6 +24,6 @@ print ','.join(cc)
 sc=SnowNLP(c)
 print ','.join(sc.words)
 
-#print c
+print c.decode('utf-8')
 
 
