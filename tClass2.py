@@ -42,9 +42,8 @@ class WeiboDataGet():
             print 'time out!'
 
         # time.sleep(20)
-
+    #获取搜索页面的微博文本
     def GetData(self,pages):
-        non_bmp_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
         j=1
         self.textData=[]
         while j < pages:
@@ -165,7 +164,8 @@ if __name__=="__main__":
     #x.Connect('http://weibo.com')
     #x.Login()
     #time.sleep(20)
-    x.GetData(2)
-    x.WriteFile('out.txt')
-    x.DataBaseOut()
+    #x.GetData(2)
+    #x.WriteFile('out.txt')
+    #x.DataBaseOut()
+    x.GetWeiboData('https://d.weibo.com/')
     x.Close()
