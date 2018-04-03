@@ -4,7 +4,7 @@ import time
 import pymysql
 from snownlp import SnowNLP
 import sys
-
+from selenium.common.exceptions import NoSuchElementException
 class WeiboDataGet():
 
     def __init__(self):
@@ -36,14 +36,15 @@ class WeiboDataGet():
             elem3[0].click()
             self.driver.implicitly_wait(10)
 
-            time.sleep(5)
+            time.sleep(30)
 
         except:
             print 'time out!'
 
         # time.sleep(20)
-    #获取搜索页面的微博文本
+
     def GetData(self,pages):
+        non_bmp_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
         j=1
         self.textData=[]
         while j < pages:
@@ -86,20 +87,38 @@ class WeiboDataGet():
                 else:
                     WBNR = data.find_element_by_xpath(
                         ".//div[@class='feed_content wbcon']/p[@class='comment_txt']").text.encode('utf-8')
+                #获取时间戳
                 timestamp=data.find_element_by_xpath(
                     './/a[@node-type="feed_list_item_date"]').get_attribute('date').encode('utf-8')
-                zf=data.find_element_by_xpath(
-                    './/div[@class="feed_action clearfix"]/ul/li[2]/a/span/em').text.encode('utf-8')
-                pl=data.find_element_by_xpath(
-                    './/div[@class="feed_action clearfix"]/ul/li[3]/a/span/em').text.encode('utf-8')
-                dz=data.find_element_by_xpath(
-                    './/div[@class="feed_action clearfix"]/ul/li[4]/a/span/em').text.encode('utf-8')
-                #WBNR = WBNR.translate(non_bmp_map)
-                print(timestamp)
-                print(WBNR)
-                seniV=SnowNLP(WBNR).sentiments
-                print(seniV)
-                self.textData.append([WBNR,seniV])
+                timestamp=timestamp[:timestamp.__len__()-3]
+                #获取转发数
+                try:
+                    zf=data.find_element_by_xpath(
+                        './/div[@class="feed_action clearfix"]/ul/li[2]/a/span/em').text.encode('utf-8')
+                except NoSuchElementException:
+                    zf=''
+                if zf=='':
+                    zf='0'
+                #获取评论数
+                try:
+                    pl=data.find_element_by_xpath(
+                        './/div[@class="feed_action clearfix"]/ul/li[3]/a/span/em').text.encode('utf-8')
+                except NoSuchElementException:
+                    pl=''
+                if pl=='':
+                    pl='0'
+                #获取点赞数
+                try:
+                    dz=data.find_element_by_xpath(
+                        './/div[@class="feed_action clearfix"]/ul/li[4]/a/span/em').text.encode('utf-8')
+                except NoSuchElementException:
+                    dz=''
+                if dz=='':
+                    dz='0'
+                lctime=time.strftime("%Y%m%d%H%M%S",time.localtime(int(timestamp)))
+                print [WBNR,zf,pl,dz,lctime,timestamp]
+                self.textData.append([WBNR,zf,pl,dz,lctime,timestamp])
+                break
 
     def GetWeiboData(self,address):
         self.textWeiboData=[]
@@ -142,6 +161,7 @@ class WeiboDataGet():
 
             self.textWeiData.append([WBNR])
 
+
     def WriteFile(self,filePath):
         f = open(filePath, 'w')
         for text in self.textData:
@@ -153,7 +173,9 @@ class WeiboDataGet():
         con=pymysql.connect(host='123.206.45.78', port=3306, user='sa', passwd='sail1989', db='test', charset='utf8')
         cursor=con.cursor()
         for text in self.textData:
-            sqlsen="INSERT INTO `wbc`(`content`, `sens`) VALUES ('"+text[0]+"',"+str(text[1])+")"
+            sqlsen=\
+                "INSERT INTO `wbdata`(`content`, `zf`,`pl`,`dz`,`sendts`,`sendtsint`) VALUES ('"+\
+                text[0]+"',"+text[1]+","+text[2]+","+text[3]+",'"+text[4]+"',"+text[5]+")"
             cursor.execute(sqlsen)
         con.commit()
         cursor.close()
@@ -164,8 +186,7 @@ if __name__=="__main__":
     #x.Connect('http://weibo.com')
     #x.Login()
     #time.sleep(20)
-    #x.GetData(2)
+    x.GetData(2)
     #x.WriteFile('out.txt')
-    #x.DataBaseOut()
-    x.GetWeiboData('https://d.weibo.com/')
+    x.DataBaseOut()
     x.Close()
